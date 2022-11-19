@@ -11,7 +11,7 @@ class Persona: #Clase viene a ser la plantilla
     def imprimir(self):
         print(self.nombre, self.id)
         print("El nombre de la persona es", self.nombre)
-        print("El id de la persona es {self.id})
+        print(f"El id de la persona es {self.id}")
         print("La edad de la persona es", self.edad)
 
 persona1 = Persona() #persona1 va a ser objeto de la clase Persona
